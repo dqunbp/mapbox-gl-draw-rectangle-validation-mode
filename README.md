@@ -1,6 +1,6 @@
 # mapbox-gl-draw-rectangle-validation-mode
 
-[mapbox-gl](https://github.com/mapbox/mapbox-gl-draw) Draw rectangle mode, with optional area limitation
+[mapbox-gl](https://github.com/mapbox/mapbox-gl-draw) Draw rectangle mode, with feature validation
 
 ## [DEMO](https://dqunbp.github.io/mapbox-gl-draw-rectangle-validation-mode/)
 
@@ -55,9 +55,9 @@ draw.changeMode("draw_rectangle", {
 
 ## Styles
 
-### Exceeded features
+### Invalid features
 
-Exeeded size feature has `user_is_invalid: true` property
+Invalid feature has `user_is_invalid: true` property
 
 ### Default styles
 
